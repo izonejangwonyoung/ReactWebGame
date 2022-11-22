@@ -56,7 +56,7 @@ function Gugudan() {
     }
 
     const onSubmit = (e) => {
-        alert("Woogae babo")
+        // alert("Woogae babo")
         e.preventDefault();
         if (parseInt(value) === firstNumber * secondNumber) {
             setResult('정답!')
